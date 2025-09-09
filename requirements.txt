@@ -2,3 +2,6 @@ streamlit
 python-dotenv
 openai
 pandas
+PyJWT
+requests
+beautifulsoup4

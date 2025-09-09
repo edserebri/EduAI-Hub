@@ -1,0 +1,29 @@
+{
+  "Основы ML и Практика Python": [
+    {
+      "url": "https://www.youtube.com/watch?v=VEe_yIbW64w&list=RDVEe_yIbW64w&start_radio=1",
+      "title": "真夜中のドア/Stay With Me",
+      "note": "Тест",
+      "uploader": "egor2",
+      "ts": 1757305946,
+      "video_info": {
+        "type": "youtube",
+        "video_id": "VEe_yIbW64w",
+        "embed_url": "https://www.youtube.com/embed/VEe_yIbW64w",
+        "title": "真夜中のドア/Stay With Me"
+      }
+    },
+    {
+      "url": "https://vkvideo.ru/clip-217672812_456239090",
+      "title": "Видео",
+      "note": "Тест вк",
+      "uploader": "egor2",
+      "ts": 1757306079,
+      "video_info": {
+        "type": "other",
+        "url": "https://vkvideo.ru/clip-217672812_456239090",
+        "title": "Видео"
+      }
+    }
+  ]
+}

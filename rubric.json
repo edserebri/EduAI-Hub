@@ -3,16 +3,30 @@
     "subject": "Основы ML и Практика Python",
     "assignment_id": "dz1",
     "title": "Задание 1: Основы ML",
+    "test_type": "keyword_based",
+    "description": "",
     "questions": [
       {
         "question_id": "q1",
         "title": "Объясните bias-variance tradeoff",
         "max_points": 40,
         "keywords": [
-          { "word": "bias", "points": 10 },
-          { "word": "variance", "points": 10 },
-          { "word": "overfitting", "points": 10 },
-          { "word": "underfitting", "points": 10 }
+          {
+            "word": "bias",
+            "points": 10
+          },
+          {
+            "word": "variance",
+            "points": 10
+          },
+          {
+            "word": "overfitting",
+            "points": 10
+          },
+          {
+            "word": "underfitting",
+            "points": 10
+          }
         ]
       },
       {
@@ -20,9 +34,18 @@
         "title": "Что такое переобучение и как его уменьшить?",
         "max_points": 30,
         "keywords": [
-          { "word": "регуляризация", "points": 10 },
-          { "word": "валидация", "points": 10 },
-          { "word": "dropout", "points": 10 }
+          {
+            "word": "регуляризация",
+            "points": 10
+          },
+          {
+            "word": "валидация",
+            "points": 10
+          },
+          {
+            "word": "dropout",
+            "points": 10
+          }
         ]
       },
       {
@@ -30,9 +53,18 @@
         "title": "Поясните k-fold cross-validation",
         "max_points": 30,
         "keywords": [
-          { "word": "разбиение", "points": 10 },
-          { "word": "k", "points": 10 },
-          { "word": "среднее", "points": 10 }
+          {
+            "word": "разбиение",
+            "points": 10
+          },
+          {
+            "word": "k",
+            "points": 10
+          },
+          {
+            "word": "среднее",
+            "points": 9
+          }
         ]
       }
     ]
@@ -47,10 +79,22 @@
         "title": "Объясните precision, recall, F1",
         "max_points": 35,
         "keywords": [
-          { "word": "precision", "points": 10 },
-          { "word": "recall", "points": 10 },
-          { "word": "F1", "points": 10 },
-          { "word": "дисбаланс классов", "points": 5 }
+          {
+            "word": "precision",
+            "points": 10
+          },
+          {
+            "word": "recall",
+            "points": 10
+          },
+          {
+            "word": "F1",
+            "points": 10
+          },
+          {
+            "word": "дисбаланс классов",
+            "points": 5
+          }
         ]
       },
       {
@@ -58,10 +102,22 @@
         "title": "ROC-AUC и PR-AUC: когда какой лучше?",
         "max_points": 35,
         "keywords": [
-          { "word": "ROC", "points": 10 },
-          { "word": "PR", "points": 10 },
-          { "word": "AUC", "points": 10 },
-          { "word": "редкие события", "points": 5 }
+          {
+            "word": "ROC",
+            "points": 10
+          },
+          {
+            "word": "PR",
+            "points": 10
+          },
+          {
+            "word": "AUC",
+            "points": 10
+          },
+          {
+            "word": "редкие события",
+            "points": 5
+          }
         ]
       },
       {
@@ -69,9 +125,18 @@
         "title": "Как бороться с переобучением в деревьях решений?",
         "max_points": 30,
         "keywords": [
-          { "word": "max_depth", "points": 10 },
-          { "word": "min_samples_leaf", "points": 10 },
-          { "word": "pruning", "points": 10 }
+          {
+            "word": "max_depth",
+            "points": 10
+          },
+          {
+            "word": "min_samples_leaf",
+            "points": 10
+          },
+          {
+            "word": "pruning",
+            "points": 10
+          }
         ]
       }
     ]
@@ -86,10 +151,22 @@
         "title": "Опишите корректный train/val/test сплит",
         "max_points": 40,
         "keywords": [
-          { "word": "leakage", "points": 10 },
-          { "word": "стратификация", "points": 10 },
-          { "word": "shuffle", "points": 10 },
-          { "word": "random_state", "points": 10 }
+          {
+            "word": "leakage",
+            "points": 10
+          },
+          {
+            "word": "стратификация",
+            "points": 10
+          },
+          {
+            "word": "shuffle",
+            "points": 10
+          },
+          {
+            "word": "random_state",
+            "points": 10
+          }
         ]
       },
       {
@@ -97,15 +174,26 @@
         "title": "Feature engineering: примеры для табличных данных",
         "max_points": 60,
         "keywords": [
-          { "word": "scaling", "points": 15 },
-          { "word": "encoding", "points": 15 },
-          { "word": "interaction", "points": 15 },
-          { "word": "полезность", "points": 15 }
+          {
+            "word": "scaling",
+            "points": 15
+          },
+          {
+            "word": "encoding",
+            "points": 15
+          },
+          {
+            "word": "interaction",
+            "points": 15
+          },
+          {
+            "word": "полезность",
+            "points": 15
+          }
         ]
       }
     ]
   },
-
   {
     "subject": "Физика",
     "assignment_id": "newton_laws_01",
@@ -116,11 +204,26 @@
         "title": "Сформулируйте три закона Ньютона",
         "max_points": 100,
         "keywords": [
-          { "word": "инерция", "points": 20 },
-          { "word": "сила", "points": 20 },
-          { "word": "ускорение", "points": 20 },
-          { "word": "противоположно равна", "points": 20 },
-          { "word": "масса", "points": 20 }
+          {
+            "word": "инерция",
+            "points": 20
+          },
+          {
+            "word": "сила",
+            "points": 20
+          },
+          {
+            "word": "ускорение",
+            "points": 20
+          },
+          {
+            "word": "противоположно равна",
+            "points": 20
+          },
+          {
+            "word": "масса",
+            "points": 20
+          }
         ]
       }
     ]
@@ -135,10 +238,22 @@
         "title": "Определите скорость, путь, время и их связи",
         "max_points": 40,
         "keywords": [
-          { "word": "скорость", "points": 10 },
-          { "word": "путь", "points": 10 },
-          { "word": "время", "points": 10 },
-          { "word": "s = v*t", "points": 10 }
+          {
+            "word": "скорость",
+            "points": 10
+          },
+          {
+            "word": "путь",
+            "points": 10
+          },
+          {
+            "word": "время",
+            "points": 10
+          },
+          {
+            "word": "s = v*t",
+            "points": 10
+          }
         ]
       },
       {
@@ -146,10 +261,22 @@
         "title": "Графики зависимости s(t) и v(t): что показывают?",
         "max_points": 60,
         "keywords": [
-          { "word": "наклон", "points": 15 },
-          { "word": "площадь", "points": 15 },
-          { "word": "линейная зависимость", "points": 15 },
-          { "word": "ось времени", "points": 15 }
+          {
+            "word": "наклон",
+            "points": 15
+          },
+          {
+            "word": "площадь",
+            "points": 15
+          },
+          {
+            "word": "линейная зависимость",
+            "points": 15
+          },
+          {
+            "word": "ось времени",
+            "points": 15
+          }
         ]
       }
     ]
@@ -164,10 +291,22 @@
         "title": "Объясните закон Ома и его применение",
         "max_points": 50,
         "keywords": [
-          { "word": "U = I*R", "points": 15 },
-          { "word": "сопротивление", "points": 10 },
-          { "word": "сила тока", "points": 10 },
-          { "word": "напряжение", "points": 15 }
+          {
+            "word": "U = I*R",
+            "points": 15
+          },
+          {
+            "word": "сопротивление",
+            "points": 10
+          },
+          {
+            "word": "сила тока",
+            "points": 10
+          },
+          {
+            "word": "напряжение",
+            "points": 15
+          }
         ]
       },
       {
@@ -175,13 +314,70 @@
         "title": "Последовательное и параллельное соединение резисторов",
         "max_points": 50,
         "keywords": [
-          { "word": "Rсум", "points": 10 },
-          { "word": "последовательное", "points": 10 },
-          { "word": "параллельное", "points": 10 },
-          { "word": "ток делится", "points": 10 },
-          { "word": "напряжение одинаково", "points": 10 }
+          {
+            "word": "Rсум",
+            "points": 10
+          },
+          {
+            "word": "последовательное",
+            "points": 10
+          },
+          {
+            "word": "параллельное",
+            "points": 10
+          },
+          {
+            "word": "ток делится",
+            "points": 10
+          },
+          {
+            "word": "напряжение одинаково",
+            "points": 10
+          }
         ]
       }
     ]
+  },
+  {
+    "subject": "Основы ML и Практика Python",
+    "assignment_id": "_______ml____________python_32_426881",
+    "title": "32",
+    "test_type": "multiple_choice",
+    "questions": [
+      {
+        "question_id": "q1",
+        "title": "41",
+        "max_points": 10,
+        "options": [
+          "1",
+          "1"
+        ],
+        "correct_answer": "1",
+        "test_type": "multiple_choice"
+      }
+    ],
+    "due_date": "2025-09-09",
+    "time_limit_minutes": 5
+  },
+  {
+    "subject": "Основы ML и Практика Python",
+    "assignment_id": "_______ml____________python_1134_427556",
+    "title": "1134",
+    "test_type": "multiple_choice",
+    "questions": [
+      {
+        "question_id": "q1",
+        "title": "2",
+        "max_points": 10,
+        "options": [
+          "3",
+          "4"
+        ],
+        "correct_answer": "3",
+        "test_type": "multiple_choice"
+      }
+    ],
+    "due_date": "2025-09-09",
+    "time_limit_minutes": 1
   }
 ]
